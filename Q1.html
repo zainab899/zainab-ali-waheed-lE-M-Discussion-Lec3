@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td></td>
+                <td>
+        <input checked type="radio" id="r" name="r">
+        <label  for="r">Mr.</label>
+        <input type="radio" id="r" name="r">
+        <label for="r">Mrs.</label>
+        <input type="radio" id="r" name="r">
+        <label for="r">Ms.</label>
+                </td>
+            </tr>    
+        <tr>
+          <td><label for="f">First Name</label></td>
+          <td><input type="text" id="f" name="f" placeholder="First Name"></td>
+        </tr><tr>
+           <td><label for="l">Last Name</label></td>
+           <td><input type="text" id="l" name="l" placeholder="Last Name"></td>
+        </tr><tr>
+            <td><label for="t">Mail Address1</label></td>
+            <td><input type="text" id="t"></td>
+        </tr><tr>
+            <td><label for="t">Mail Address2</label></td>
+            <td><input type="text" id="t"></td>
+        </tr><tr>
+            <td><label for="c">City</label></td>
+            <td><input type="text" id="c"></td>
+        </tr><tr>
+            <td>State</td>
+            <td><select  name="state">
+            <option value="g">Gujarat</option>
+            <option value="m">Hindi</option>
+            <option value="e">English</option>
+            <option value="m">Marathi </option>      
+        </select>
+            </td>
+        </tr><tr>
+            <td><label for="z">Zip</label></td>
+            <td><input type="text" id="z"></td>
+        </tr><tr>
+            <td><label for="f">Upload photo</label></td>
+            <td><input type="file" id="f"></td>
+        </tr><tr>
+            <td><label for="e">E-Mail</label></td>
+            <td><input type="email" id="e"></td> 
+        </tr><tr>
+            <td><label for="n">Mobile</label></td>
+            <td><input type="number" id="n" placeholder="+91"></td>
+        </tr><tr>
+            <td>Languages known</td>
+            <td><input checked type="checkbox" value="Gujarat">Gujarati<br>
+                <input  checked type="checkbox"  value="Hindi">Hindi<br>
+                <input checked type="checkbox" value="English">English<br>
+                <input type="checkbox" value="Marathi">Marathi<br></td>
+        </tr><tr>
+              <td><label for="a">Additional Information</label></td>
+              <td><textarea placeholder="optional" id="a" cols="20" rows="3"></textarea></td>
+        </tr><tr>
+               <td></td>
+                <td><input type="submit">
+                    <input type="reset"></td>
+              </tr>      
+        </table>
+    </form>
+</body>
+</html>
